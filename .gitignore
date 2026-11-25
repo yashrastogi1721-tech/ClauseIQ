@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables / API keys
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Streamlit cache
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Python tooling and OS files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+Thumbs.db
+.DS_Store
